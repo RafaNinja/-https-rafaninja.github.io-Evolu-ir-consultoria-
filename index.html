@@ -19,6 +19,7 @@
             padding:0;
             box-sizing: border-box;
         }
+
         
 
         h5{
@@ -29,6 +30,16 @@
             color: #162F58 ;
             text-align: center;
             font-weight: 600;
+        }
+
+        .text-center {
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente, se necessário */
+        }
+
+        .text-center img {
+        max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+        height: auto; /* Mantém a proporção da imagem */
         }
 
         .missao, .proposito {
@@ -120,23 +131,23 @@
                 </li>
         </ul>
 </header>
-<section id="sobre-nos">
-        <main class="container-fluid center">
-            <div class="container-fluid center">
-                <div class="text-center">
-                    <img src="./assets/imgs/3.png" class="text-center" alt="Logotipo Evolu-ir" width="350px" height="350px">
-                </div>
-                <div class="text-center">
-                    <h5 class="container-md  container-fluid center">Atendemos empresas de Norte a Sul do país, somamos mais de 30 anos
+<section id="sobre-nos" class="container">
+    <main class="container-fluid text-center">
+        <div class="container-fluid">
+            <div class="text-center">
+                <img src="./assets/imgs/3.png" class="text-center" alt="Logotipo Evolu-ir" width="350" height="350">
+            </div>
+            <div class="text-center">
+                <h5 class="container-md">Atendemos empresas de Norte a Sul do país, somamos mais de 30 anos
                     de experiência no mundo corporativo e acreditamos que desenvolver o
                     autoconhecimento é a chave para evoluir a novos níveis de produtividade
-                    positiva, qualidade de vida e bem-estar geral</h5>
-                </div>
+                    positiva, qualidade de vida e bem-estar geral.</h5>
             </div>
-            <br><br>
-            <div class="grid text-center">
-                <div class="container-md container-fluid">
-                    <div class="row align-items-start">
+        </div>
+        <br><br>
+        <div class="grid text-center">
+            <div class="container-md">
+                <div class="row align-items-start">
                     <div class="col-md">
                         <h3 class="missao">Nossa missão</h3>
                         <p class="texto-missao">Promover
@@ -144,17 +155,20 @@
                             dimensão de saúde e bem-estar, visando
                             fortalecer a marca empregadora,
                             potencializar resultados, disseminando
-                            boas práticas no ambientecorporativo.</p>
+                            boas práticas no ambiente corporativo.</p>
                     </div>
-                    <div class="col-md" >
+                    <div class="col-md">
                         <h3 class="proposito">Nosso propósito</h3>
                         <p class="texto-proposito">Ser referência em práticas de saúde e bem estar e no desenvolvimento das relações
-                        organizacionais, fomentando uma cultura
-                        produtiva e positiva que impacte na
-                        transformação e performance.
+                            organizacionais, fomentando uma cultura
+                            produtiva e positiva que impacte na
+                            transformação e performance.
                         </p>
                     </div>
+                </div>
             </div>
+        </div>
+    </main>
 </section>
 <br>
 <section class="container" id="saude">

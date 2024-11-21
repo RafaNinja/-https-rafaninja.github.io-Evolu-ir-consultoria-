@@ -10,7 +10,10 @@
 }
 
 body {
+    height: 100%;
     align-items: center;
+    height: auto;
+    overflow-x: hidden;
 }
 
 ul, li {
